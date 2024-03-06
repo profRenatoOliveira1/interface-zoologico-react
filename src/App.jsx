@@ -1,7 +1,7 @@
 import './App.css'
 import Navegacao from './components/Navegacao/Navegacao'
 import Atracao from './components/Atracao/Atracao'
-import CardAnimal from './components/CardAnimal/CardAnimal';
+import Welcome from './components/Welcome/Welcome';
 
 function App() {
   const componentes = [];
@@ -12,10 +12,10 @@ function App() {
   return (
     <>
       <Navegacao></Navegacao>
-      {/* <div className="ctn-atracoes">
+      <Welcome />
+      <div className="ctn-atracoes">
         {componentes}
-      </div> */}
-      <CardAnimal />
+      </div>
     </>
   )
 }
