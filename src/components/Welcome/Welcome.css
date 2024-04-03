@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-around;
     padding-top: 4%;
+    background-color: #F1EFB8;
 }
 
 .welcome-container {

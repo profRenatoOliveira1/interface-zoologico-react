@@ -1,0 +1,32 @@
+[
+	{
+		"index": 1,
+		"src": "./src/assets/animais/animais1.jpg",
+		"caption": "Tucano",
+        "text": "Lorem Ipsum"
+	},
+	{
+		"index": 2,
+		"src": "./src/assets/animais/animais2.jpg",
+		"caption": "Matando a sede",
+        "text": "Lorem Ipsum"
+	},
+    {
+		"index": 3,
+		"src": "./src/assets/animais/animais3.jpg",
+		"caption": "Posando para a foto",
+        "text": "Lorem Ipsum"
+	},
+    {
+		"index": 4,
+		"src": "./src/assets/animais/animais4.jpg",
+		"caption": "Maurício?",
+        "text": "Lorem Ipsum"
+	},
+    {
+		"index": 5,
+		"src": "./src/assets/animais/animais5.jpg",
+		"caption": "Zoológico",
+        "text": "Lorem Ipsum"
+	}
+]
