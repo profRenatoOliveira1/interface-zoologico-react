@@ -1,0 +1,30 @@
+form {
+    display: flex;
+    flex-direction: column;
+
+    width: 75%;
+    margin: 2.5% auto;
+}
+
+input {
+    background-color: white;
+    color: black;
+    width: 50%;
+}
+
+select {
+    width: 50%;
+}
+
+form button {
+    width: 50%;
+    margin: 1% auto;
+}
+
+label {
+    margin-top: 1%;
+}
+
+h2 {
+    margin-top: 2%!important;
+}
