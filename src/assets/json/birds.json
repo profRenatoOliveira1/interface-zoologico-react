@@ -1,0 +1,42 @@
+[
+	{
+		"index": 1,
+		"src": "./src/assets/passaros/birds-001.png"
+	},
+	{
+		"index": 2,
+		"src": "./src/assets/passaros/birds-002.png"
+	},
+    {
+		"index": 3,
+		"src": "./src/assets/passaros/birds-003.jpeg"
+	},
+    {
+		"index": 4,
+		"src": "./src/assets/passaros/birds-004.jpeg"
+	},
+	{
+		"index": 5,
+		"src": "./src/assets/passaros/birds-005.jpeg"
+	},
+    {
+		"index": 6,
+		"src": "./src/assets/passaros/birds-006.jpeg"
+	},
+    {
+		"index": 7,
+		"src": "./src/assets/passaros/birds-007.jpeg"
+	},
+    {
+		"index": 8,
+		"src": "./src/assets/passaros/birds-008.jpg"
+	},
+    {
+		"index": 9,
+		"src": "./src/assets/passaros/birds-009.jpg"
+	},
+    {
+		"index": 10,
+		"src": "./src/assets/passaros/birds-010.jpg"
+	}
+]
