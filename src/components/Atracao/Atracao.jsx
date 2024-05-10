@@ -1,9 +1,9 @@
 import imgNotFound from '../../assets/img-not-found.png'; // Importando recurso para o componente
-import './Atracao.css'
+import style from './Atracao.module.css'
 
 function Atracao() {
     return (
-        <div className="ctn-atracao">
+        <div className={style.ctnAtracao}>
             <img src={imgNotFound} />
             <p>Lorem Ipsum</p>
         </div>

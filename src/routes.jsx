@@ -12,7 +12,7 @@ function AppRoutes() {
                     <Route exact path='/' Component={Home} />
                     <Route path='/animais' Component={Animais} />
                     <Route path='/fotos' Component={Fotos} />
-                    <Route path='/cadastro' Component={Cadastro} />
+                    <Route path='/cadastro/animais' Component={Cadastro} />
                 </Routes>
             </Roteador>
         </>

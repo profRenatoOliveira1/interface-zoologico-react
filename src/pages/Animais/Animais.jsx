@@ -1,7 +1,8 @@
+import './Animais.css';
 import Navegacao from '../../components/Navegacao/Navegacao';
 import CardAnimal from '../../components/CardAnimal/CardAnimal';
-import './Animais.css'
 import { useEffect, useState } from "react";
+import birdsJson from '../../assets/json/birds.json';
 
 function Animais() {
 
@@ -15,7 +16,7 @@ function Animais() {
         const fetchData = async () => {
             try {
                 // Faz a consulta (fetch) na API e retorna a resposta para a variável response
-                const response = await fetch('http://localhost:3000/list/aves');
+                const response = await fetch('http://localhost:3000/listar-aves');
                 // Verifica se o status da responsa deu alguma problema
                 if (!response.ok) {
                     // Se deu problema, irá lançar um erro
@@ -39,7 +40,16 @@ function Animais() {
     return(
         <>
             <Navegacao />
-            <CardAnimal />
+            <div className='ctn-animais'>
+                {animais.length > 0 ? (
+                    // Renderize o seu componente para cada item da lista
+                    animais.map((animal, i) => (
+                        <CardAnimal key={animal.idanimal} animal={animal} img={birdsJson[i % birdsJson.length].src} />
+                    ))
+                ) : (
+                    <p>Carregando... Verifique se o servidor está funcionando</p>
+                )}
+            </div>
         </>
     );
 }

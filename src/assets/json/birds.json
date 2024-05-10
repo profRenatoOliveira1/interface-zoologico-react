@@ -38,5 +38,9 @@
     {
 		"index": 10,
 		"src": "./src/assets/passaros/birds-010.jpg"
+	},
+    {
+		"index": 11,
+		"src": "./src/assets/passaros/birds-011.png"
 	}
 ]
