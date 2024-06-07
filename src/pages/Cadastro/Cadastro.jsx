@@ -5,7 +5,9 @@ import './Cadastro.css';
 function Cadastro() {
     return (
         <>
+            {/* Renderiza o componente Navegacao.jsx */}
             <Navegacao />
+            {/* Renderiza o componente FormAnimal.jsx */}
             <FormAnimal />
         </>
     );

@@ -9,8 +9,15 @@ import ListagemAnimais from './pages/Listagem/ListagemAnimais';
 function AppRoutes() {
     return (
         <>
+            {/* Cria um BrowseRouter para lidar com a navegação entre páginas */}
             <Roteador>
+                {/* Cria uma lista de rotas da aplicação */}
                 <Routes>
+                    {/* Cria uma rota para acessar cada componente
+                    * exact -> indica que vai procurar aquela rota específica
+                    * path -> indica o caminho da rota (tem que ser algum que esteja no menu de navegação)
+                    * Component -> Indica a página que será renderizada
+                    */}
                     <Route exact path='/' Component={Home} />
                     <Route path='/animais' Component={Animais} />
                     <Route path='/fotos' Component={Fotos} />

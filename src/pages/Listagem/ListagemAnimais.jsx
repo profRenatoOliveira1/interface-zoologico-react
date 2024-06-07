@@ -5,8 +5,10 @@ import Navegacao from '../../components/Navegacao/Navegacao';
 function ListagemAnimais() {
     return (
         <>
+            {/* Renderiza o componente Navegacao.jsx */}
             <Navegacao />
             <h1 className={styles.headerAnimais}>Animais</h1>
+            {/* Renderiza o componente ListaAnimais.jsx */}
             <ListaAnimais />
         </>
     );

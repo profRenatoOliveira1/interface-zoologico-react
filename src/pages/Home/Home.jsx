@@ -11,9 +11,12 @@ function Home() {
 
     return (
         <>
-            <Navegacao></Navegacao>
+            {/* Renderiza o componente Navegacao.jsx */}
+            <Navegacao />
+            {/* Renderiza o componente Welcome.jsx */}
             <Welcome />
             <div className="ctn-atracoes">
+                {/* Renderiza o componente Atracao.jsx */}
                 {componentes}
             </div>
         </>
