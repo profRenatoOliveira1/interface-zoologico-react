@@ -10,7 +10,7 @@ function FormAnimal() {
         genero: 'macho',
         idade: '',
         envergadura: '',
-        idhabitat: '1'
+        idHabitat: '1'
     });
 
     // State para armazenar a lista de habitats
@@ -160,7 +160,7 @@ function FormAnimal() {
                      * option - value -> o valor que foi selecionado pelo usuário, essa lista é preenchida dos habitats que vieram do servidor através da função fetchHabitats
                      */}
                     <select
-                        name="idhabitat"
+                        name="idHabitat"
                         onChange={handleChange}
                     >
                         {/* Verifica se o array de habitats está vazio, a função map só é chamada se o array tiver conteúdo */}
