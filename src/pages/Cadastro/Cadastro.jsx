@@ -1,4 +1,4 @@
-import FormAnimal from '../../components/FormAnimal/FormAnimal';
+import FormAnimal from '../../components/Formularios/FormAnimal';
 import Navegacao from '../../components/Navegacao/Navegacao';
 import './Cadastro.css';
 

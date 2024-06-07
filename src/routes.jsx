@@ -4,6 +4,7 @@ import Animais from './pages/Animais/Animais';
 import Fotos from './pages/Fotos/Fotos';
 import Cadastro from './pages/Cadastro/Cadastro';
 import Depoimentos from './pages/Depoimentos/Depoimentos';
+import ListagemAnimais from './pages/Listagem/ListagemAnimais';
 
 function AppRoutes() {
     return (
@@ -15,6 +16,7 @@ function AppRoutes() {
                     <Route path='/fotos' Component={Fotos} />
                     <Route path='/cadastro/animais' Component={Cadastro} />
                     <Route path='/depoimentos' Component={Depoimentos} />
+                    <Route path='/listar/animais' Component={ListagemAnimais} />
                 </Routes>
             </Roteador>
         </>
